@@ -1,0 +1,4 @@
+! fonts
+
+URxvt*font: xft:M+ 1mn:size=11
+URxvt*boldFont: xft:M+ 1mn:size=11
