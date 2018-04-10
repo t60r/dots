@@ -15,7 +15,7 @@ background = ${xrdb:background:#222}
 ;background = #222
 ;background-alt = #444
 ;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
+foreground = ${xrdb:foreground:#222}
 foreground-alt = #555
 primary = #ffb52a
 secondary = #e60053
@@ -46,7 +46,7 @@ module-margin-left = 1
 module-margin-right = 2
 
 ;font-0 = PragmataPro:fontformat=truetype:size=9:weight=bold:antialias=true;1
-font-0 = Gohu GohuFont:pixelsize=11;1
+font-0 = M+ 1mn:pixelsize=11;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = fixed:pixelsize=10;1
 font-3 = Material Icons:size=11;5
@@ -124,7 +124,7 @@ adapter = AC
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+format-charging-underline = ${xrdb.color3:#FF0000}
 format-charging-background = ${colors.background}
 format-charging-padding = 2
 

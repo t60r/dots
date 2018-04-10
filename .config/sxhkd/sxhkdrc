@@ -3,7 +3,7 @@
 #
 # scrot
 super + shift + p
-        scrot
+        scrot && pkill scrot
 # brightness and darkness of monitor
 # darker
 super + F11
@@ -18,7 +18,7 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -show run -theme Monokai -font "Pragmata Pro 9"
+	rofi -show run -font "M+ 1mn 11"
 
 # make sxhkd reload its configuration files:
 super + Escape
