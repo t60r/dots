@@ -2,7 +2,8 @@
 
 sxhkd &
 
-bspc monitor -d 一 二 三 四 五 六 七 八 九 十
+#bspc monitor -d 一 二 三 四 五 六 七 八 九 十
+bspc monitor -d 一 二 三 四 五 六 七
 
 background=$(xrdb -query | grep "background" | cut -f2 | sed -r 's/#//' | head -n 1)
 foreground=$(xrdb -query | grep "foreground" | cut -f2 | sed -r 's/#//' | head -n 1)
@@ -35,3 +36,6 @@ bspc rule -a Chromium desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
+
+xrdb merge ~/.Xresources
+colors.sh &
