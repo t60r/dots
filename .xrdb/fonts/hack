@@ -1,0 +1,4 @@
+! fonts
+
+URxvt*font: xft:Hack:size=9
+URxvt*boldFont: xft:Hack:size=9

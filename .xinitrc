@@ -7,4 +7,4 @@ flashfocus &
 #exec openbox-session
 sxhkd &
 exec bspwm
-exec xmonad
+#exec dwm

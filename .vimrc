@@ -1,3 +1,5 @@
+colorscheme nordisk
+set t_Co=16
 set mouse=a
 set number
 syntax on
