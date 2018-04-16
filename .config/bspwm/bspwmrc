@@ -37,5 +37,7 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
+# Autostart
+xautolock -time 20 -locker 'lock' &
 xrdb merge ~/.Xresources
 colors.sh &

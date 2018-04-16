@@ -43,7 +43,7 @@ module-margin-left = 1
 module-margin-right = 2
 
 ;font-0 = M+ 1mn:pixelsize=11;1
-font-0 = Gohu GohuFont:pixelsize=11;1
+font-0 = Iosevka:pixelsize=11;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = "Wuncon Siji:pixelsize=11:antialias=false;1"
 font-3 = Material Icons:size=11;5
