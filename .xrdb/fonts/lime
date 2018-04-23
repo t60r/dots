@@ -1,0 +1,3 @@
+! fonts
+URxvt.font: -artwiz-lime-medium-r-normal--10-110-75-75-m-50-iso8859-1
+URxvt.boldFont: -artwiz-lime-medium-r-normal--10-110-75-75-m-50-iso8859-1 

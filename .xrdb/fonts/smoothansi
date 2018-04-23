@@ -1,0 +1,3 @@
+! fonts
+URxvt.font: -artwiz-smoothansi-medium-r-normal--13-130-75-75-m-60-iso8859-1
+URxvt.boldFont: -artwiz-smoothansi-medium-r-normal--13-130-75-75-m-60-iso8859-1 

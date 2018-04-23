@@ -1,4 +1,5 @@
-colorscheme nordisk
+""colorscheme papaya
+set background=dark
 set t_Co=16
 set mouse=a
 set number

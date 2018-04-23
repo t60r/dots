@@ -18,7 +18,7 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -show run -font "M+ 1mn 11"
+	rofi -show run  -show-icons -sidebar-mode -terminal urxvt -font "tewi 9"
 
 # make sxhkd reload its configuration files:
 super + Escape

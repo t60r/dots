@@ -43,7 +43,7 @@ module-margin-left = 1
 module-margin-right = 2
 
 ;font-0 = M+ 1mn:pixelsize=11;1
-font-0 = Iosevka:pixelsize=11;1
+font-0 = tewi:antialias=true:pixelsize=9;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = "Wuncon Siji:pixelsize=11:antialias=false;1"
 font-3 = Material Icons:size=11;5
@@ -155,7 +155,7 @@ label-urgent-padding = ${module/bspwm.label-urgent-padding}
 
 [module/mpd]
 type = internal/mpd
-format-online = <icon-prev> <icon-stop> <toggle> <icon-next> <label-song>
+format-online = <icon-prev> <toggle> <icon-next> <label-song>
 host = 127.0.0.1
 port = 6600
 icon-prev = 
