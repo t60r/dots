@@ -1,4 +1,16 @@
-""colorscheme papaya
+colorscheme nord
+" powerline symbols
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+""let g:airline_symbols.branch = ''
+""let g:airline_symbols.readonly = ''
+""let g:airline_symbols.linenr = '☰'
+""let g:airline_symbols.maxlinenr = ''
+set nocompatible              " be iMproved, required
+filetype off
+let g:airline#extensions#tabline#enabled = 1
 set background=dark
 set t_Co=16
 set mouse=a

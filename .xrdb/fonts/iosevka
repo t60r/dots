@@ -1,4 +1,4 @@
 ! fonts
 
 URxvt*font: xft:iosevka:size=11
-URxvt*boldFont: xft:iosevka:size=11
+URxvt*boldFont: xft:iosevka:style=bold:size=11
