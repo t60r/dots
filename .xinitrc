@@ -23,6 +23,9 @@ xmonad)
 fvwm)
         exec fvwm-crystal
         ;;
+fluxbox)
+        exec startfluxbox
+        ;;
 *)     
         /usr/bin/polybar burs & 
         /usr/local/bin/sxhkd &
