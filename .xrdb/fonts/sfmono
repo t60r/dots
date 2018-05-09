@@ -1,0 +1,4 @@
+! fonts
+
+URxvt*font: xft:SF Mono:style=semibold:size=11
+URxvt*boldFont: xft:SF Mono:style=bold:size=11

@@ -4,6 +4,9 @@
 # scrot
 super + shift + p
         scrot && pkill scrot
+
+super + shift + r
+        pkill polybar && polybar -r burs
 # brightness and darkness of monitor
 # darker
 super + F11

@@ -41,7 +41,7 @@ static const uint8_t borders[] = {5,7,2,3};
 #define LOOK_INTO "WM_NAME"
 static const char *ignore_names[]  = {"bar", "xclock"};
 ///--Menus and Programs---///
-static const char *menucmd[]       = { "rofi","-show","run","-show-icons","-sidebar-mode","-terminal","urxvt","-font","SF Pro Display 11",  NULL };
+static const char *menucmd[]       = { "rofi","-show","run","-show-icons","-sidebar-mode","-terminal","urxvt","-font","Iosevka Term 11",  NULL };
 static const char *terminalcmd[]   = { "urxvt", NULL };
 #define WORKSPACES 5
 ///--Custom foo---///

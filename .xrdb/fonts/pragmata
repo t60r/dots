@@ -1,4 +1,4 @@
 ! fonts
 
-URxvt*font: xft:PragmataPro:size=11
-URxvt*boldFont: xft:PragmataPro:size=11
+URxvt*font: xft:PragmataPro:style=regular:size=11
+URxvt*boldFont: xft:PragmataPro:style=bold:size=11

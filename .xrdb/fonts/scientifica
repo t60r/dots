@@ -1,4 +1,4 @@
 ! fonts
 
-URxvt*font: URxvt.font:xft:scientifica:size=11
-URxvt*boldFont: URxvt.font:xft:scientifica:size=11
+URxvt*font: xft:scientifica:style=medium:size=14
+URxvt*boldFont: xft:scientifica:style=bold:size=14
