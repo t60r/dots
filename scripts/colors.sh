@@ -1,10 +1,4 @@
-#! /bin/sh
-
-sxhkd &
-
-#bspc monitor -d 一 二 三 四 五 六 七 八 九 十
-bspc monitor -d 一 二 三 四 五 六 七
-
+#!/bin/sh
 background=$(xrdb -query | grep "background" | cut -f2 | sed -r 's/#//' | head -n 1)
 foreground=$(xrdb -query | grep "foreground" | cut -f2 | sed -r 's/#//' | head -n 1)
 color0=$(xrdb -query | grep "color0" | cut -f2 | sed -r 's/#//' | head -n 1)
@@ -16,27 +10,16 @@ color5=$(xrdb -query | grep "color5" | cut -f2 | sed -r 's/#//' | head -n 1)
 color6=$(xrdb -query | grep "color6" | cut -f2 | sed -r 's/#//' | head -n 1)
 color7=$(xrdb -query | grep "color7" | cut -f2 | sed -r 's/#//' | head -n 1)
 color8=$(xrdb -query | grep "color8" | cut -f2 | sed -r 's/#//' | head -n 1)
-
-bspc config border_width         4
-bspc config window_gap           8
-
-bspc config split_ratio           0.50
-bspc config borderless_monocle    true
-bspc config gapless_monocle       true
-bspc config click_to_focus 	 	  true
-bspc config focus_follows_pointer true
+color9=$(xrdb -query | grep "color9" | cut -f2 | sed -r 's/#//' | head -n 1)
+color10=$(xrdb -query | grep "color10" | cut -f2 | sed -r 's/#//' | head -n 1)
+color11=$(xrdb -query | grep "color11" | cut -f2 | sed -r 's/#//' | head -n 1)
+color12=$(xrdb -query | grep "color12" | cut -f2 | sed -r 's/#//' | head -n 1)
+color13=$(xrdb -query | grep "color13" | cut -f2 | sed -r 's/#//' | head -n 1)
+color14=$(xrdb -query | grep "color14" | cut -f2 | sed -r 's/#//' | head -n 1)
+color15=$(xrdb -query | grep "color15" | cut -f2 | sed -r 's/#//' | head -n 1)
 
 bspc config normal_border_color "#$color8"
 bspc config active_border_color "#$color9"
 bspc config focused_border_color "#$color9"
 bspc config presel_feedback_color "#$color1"
-
-bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a Chromium desktop='^2'
-bspc rule -a mplayer2 state=floating
-bspc rule -a Kupfer.py focus=on
-bspc rule -a Screenkey manage=off
-
-# Autostart
-xautolock -time 20 -locker 'lock' &
-colors.sh &
+#END

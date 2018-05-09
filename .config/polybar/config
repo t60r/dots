@@ -44,17 +44,18 @@ module-margin-right = 2
 
 ;font-0 = M+ 1mn:pixelsize=11;1
 font-0 = SF Pro Display:style=semibold:antialias=true:pixelsize=11;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = "Wuncon Siji:style=bold:pixelsize=11:antialias=false;1"
-font-3 = Material Icons:size=11;2
-font-4 = M+ 1mn:pixelsize=11;1
+;font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+;font-2 = "Wuncon Siji:style=bold:pixelsize=11:antialias=false;1"
+font-1 = Material Icons:size=11;2
+font-2 = M+ 1mn:style=bold:pixelsize=11;1
 
 modules-left = bspwm xwindow
+module-margin-left = 4
 modules-center = mpd
 modules-right = volume memory cpu date battery powermenu
 
-;tray-position = right
-;tray-padding = 2
+tray-position = left
+tray-padding = 2
 
 wm-restack = bspwm
 
@@ -97,7 +98,8 @@ label-unmounted-foreground = ${colors.foreground-alt}
 
 [module/bspwm]
 type = internal/bspwm
-
+module-margin-left = 4
+module-margin-right = 4
 label-focused = %name%
 label-focused-font = 4 
 label-focused-background = ${xrdb:background:#ff0000}
