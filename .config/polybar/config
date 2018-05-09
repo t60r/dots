@@ -43,10 +43,10 @@ module-margin-left = 1
 module-margin-right = 2
 
 ;font-0 = M+ 1mn:pixelsize=11;1
-font-0 = Tewi:antialias=true:pixelsize=11;1
+font-0 = SF Pro Display:style=semibold:antialias=true:pixelsize=11;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = "Wuncon Siji:pixelsize=11:antialias=false;1"
-font-3 = Material Icons:size=11;5
+font-2 = "Wuncon Siji:style=bold:pixelsize=11:antialias=false;1"
+font-3 = Material Icons:size=11;2
 font-4 = M+ 1mn:pixelsize=11;1
 
 modules-left = bspwm xwindow

@@ -21,7 +21,7 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -show run  -show-icons -sidebar-mode -terminal urxvt -font "SF Pro Display 11"
+	rofi -show run  -show-icons -sidebar-mode -terminal urxvt -font "SF Pro Display Semibold 11"
 
 # make sxhkd reload its configuration files:
 super + Escape
