@@ -9,7 +9,8 @@
 ; find icon name : fc-match -a |grep -i Material
 ; to find icon: xfd -fa MaterialIcons,
 ; echo "\ueXXX" to print and paste here
-;
+
+;This file has been edited by squash
 [colors]
 background = ${xrdb:background:#222}
 foreground = ${xrdb:foreground:#222}
@@ -50,7 +51,6 @@ font-1 = Material Icons:size=11;2
 font-2 = M+ 1mn:style=bold:pixelsize=11;1
 
 modules-left = bspwm xwindow
-module-margin-left = 4
 modules-center = mpd
 modules-right = volume memory cpu date battery powermenu
 
