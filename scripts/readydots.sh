@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cp ~/.Xresources ~/git
+cp ~/.Xresources ~/git/dots
 cp ~/.config/bspwm/bspwmrc ~/git/dots/.config/bspwm/
 cp ~/.config/sxhkd/sxhkdrc ~/git/dots/.config/sxhkd/
 cp ~/.config/polybar/config ~/git/dots/.config/polybar/
