@@ -2,15 +2,15 @@
 ! Includes for easier (Instant) rice!
 ! -----------------------------------
 #include ".cache/squash/x_colors"
-!#include "/home/winston/.xrdb/colors/nord"
+#include "/home/winston/.xrdb/colors/monodevek"
 #include "/home/winston/.xrdb/fonts/tewi"
-!#include "/home/winston/.xrdb/rofi/nord"
+!#include "/home/winston/.xrdb/rofi/monodevek"
 
 Xft.autohint: 0
 Xft.lcdfilter: lcddefault
 Xft.hintstyle: hintslight
 Xft.hinting: 1
-XTerm.vt100.faceName: scientifica:size=11:antialias=true
+XTerm.vt100.faceName: Bittypix Monospace:size=11:antialias=true
 Xft.rgba: rgb
 Xft.dpi: 96
 XTerm.termName: xterm-256color
