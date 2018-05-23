@@ -34,6 +34,6 @@ openbox)
 *)     
         /usr/bin/polybar -r burs & 
         /usr/local/bin/sxhkd &
-	exec /usr/local/bin/bspwm
+    	exec /usr/local/bin/bspwm
 	;;
 esac

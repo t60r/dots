@@ -2,8 +2,8 @@
 ! Includes for easier (Instant) rice!
 ! -----------------------------------
 #include ".cache/squash/x_colors"
-#include "/home/winston/.xrdb/colors/monodevek"
-#include "/home/winston/.xrdb/fonts/tewi"
+!#include "/home/winston/.xrdb/colors/monodevek"
+#include "/home/winston/.xrdb/fonts/iosevka"
 !#include "/home/winston/.xrdb/rofi/monodevek"
 
 Xft.autohint: 0
