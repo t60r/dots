@@ -17,7 +17,10 @@ super + F12
 
 # terminal emulator
 super + Return
-	urxvt	
+	urxvt
+
+super + shift + Return
+    xterm
 
 # program launcher
 super + @space

@@ -10,13 +10,15 @@ Xft.autohint: 0
 Xft.lcdfilter: lcddefault
 Xft.hintstyle: hintslight
 Xft.hinting: 1
-XTerm.vt100.faceName: Bittypix Monospace:size=11:antialias=true
+XTerm.vt100.faceName: Iosevka Term:size=11:antialias=true
+XTerm.vt100.font: -schumacher-clean-medium-r-normal-*-12-120-75-75-c-*-iso8859-*
 Xft.rgba: rgb
 Xft.dpi: 96
 XTerm.termName: xterm-256color
 XTerm.vt100.locale: true
 XTerm.vt100.selectToClipboard: true
 Xcursor*theme: Adwaita
+XTerm.scaleHeight: 1.01
 
 URxvt.scrollBar: false
 !URxvt*depth: 32
@@ -25,4 +27,4 @@ URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 URxvt.matcher.rend.0: Uline Bold fg5
 URxvt*borderless: false
-!URxvt.letterSpace: 1
+URxvt.letterSpace: -1
