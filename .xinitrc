@@ -1,11 +1,11 @@
 #nitrogen --restore &
 xrdb merge ./.Xresources &
 xsetroot -cursor_name left_ptr &
-flashfocus &
+#flashfocus &
 colors.sh &
 xset +fp /usr/share/fonts/artwiz-fonts &
 xset fp rehash &
-compton --config .compton.conf &
+#compton --config .compton.conf &
 #sxhkd &
 #exec bspwm
 
@@ -30,6 +30,9 @@ fluxbox)
         ;;
 openbox)
         exec openbox-session
+        ;;
+kde)
+        exec startkde
         ;;
 *)     
         /usr/bin/polybar -r burs & 

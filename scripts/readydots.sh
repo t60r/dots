@@ -15,5 +15,6 @@ cp ~/builds/2bwm/2bwm/config.h ~/git/dots/2bwm
 cp ~/bin/colors.sh ~/git/dots/scripts
 cp ~/.config/libinput-gestures.conf ~/git/dots/.config
 cp ~/bin/readydots.sh ~/git/dots/scripts
-
+cp ~/.config/redshift/redshift.conf ~/git/dots/.config/redshift
+cp ~/.config/redshift/hooks/brightness.sh ~/git/dots/.config/redshift/hooks
 #END

@@ -3,7 +3,7 @@
 #
 # scrot
 super + shift + p
-        scrot && pkill scrot
+        scrot && pkill scrot -q 100
 
 super + shift + r
         pkill polybar && polybar -r burs
