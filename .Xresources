@@ -1,16 +1,16 @@
 ! -----------------------------------
 ! Includes for easier (Instant) rice!
 ! -----------------------------------
-#include ".cache/squash/x_colors"
+!#include ".cache/squash/x_colors"
 !#include "/home/winston/.xrdb/colors/monodevek"
-#include "/home/winston/.xrdb/fonts/iosevka"
+#include "/home/t60r/.xrdb/fonts/anka"
 !#include "/home/winston/.xrdb/rofi/monodevek"
 
 Xft.autohint: 0
 Xft.lcdfilter: lcddefault
 Xft.hintstyle: hintslight
 Xft.hinting: 1
-XTerm.vt100.faceName: Iosevka Term:size=11:antialias=true
+XTerm.vt100.faceName: Iosevka Term SS07:size=11:antialias=true
 XTerm.vt100.font: -schumacher-clean-medium-r-normal-*-12-120-75-75-c-*-iso8859-*
 Xft.rgba: rgb
 Xft.dpi: 96
@@ -21,10 +21,31 @@ Xcursor*theme: Adwaita
 XTerm.scaleHeight: 1.01
 
 URxvt.scrollBar: false
+URxvt.internalBorder:  16
 !URxvt*depth: 32
 URxvt.perl-ext-common: default,matcher,resize-font
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 URxvt.matcher.rend.0: Uline Bold fg5
 URxvt*borderless: false
-URxvt.letterSpace: -1
+URxvt.letterSpace: 0
+*background:  #282F37
+*foreground:  #F1FCF9
+*cursorColor: #F1FCF9
+*color0:      #20262C
+*color1:      #DB86BA
+*color2:      #74DD91
+*color3:      #E49186
+*color4:      #75DBE1
+*color5:      #B4A1DB
+*color6:      #9EE9EA
+*color7:      #F1FCF9
+*color8:      #465463
+*color9:      #D04E9D
+*color10:     #4BC66D
+*color11:     #DB695B
+*color12:     #3DBAC2
+*color13:     #825ECE
+*color14:     #62CDCD
+*color15:     #E0E5E5
+

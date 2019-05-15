@@ -21,10 +21,10 @@ alert = #bd2c40
 
 [bar/burs]
 monitor = ${env:MONITOR:eDP1}
-width = 1350
+width = 1920
 height = 32
-offset-x = 8
-offset-y = 8
+offset-x = 0
+offset-y = 0
 radius = 0.0
 fixed-center = true
 
@@ -34,28 +34,28 @@ foreground = ${xrdb:foreground:#FF0000}
 line-size = 4
 line-color = #f00
 
-border-size = 4
+border-size = 0
 border-color = ${xrdb:color8:#FF000000}
 
-padding-left = 0
-padding-right = 3
+padding-left = 8
+padding-right = 8
 
 module-margin-left = 1
 module-margin-right = 2
 
 ;font-0 = M+ 1mn:pixelsize=11;1
-font-0 = SF Pro Display:style=semibold:antialias=true:pixelsize=11;1
+font-0 = SF Pro Display:style=semibold:antialias=true:pixelsize=13;1
 ;font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-3 = "Wuncon Siji:style=bold:pixelsize=11:antialias=false;1"
-font-1 = Material Icons:size=11;2
-font-2 = M+ 1mn:style=bold:pixelsize=11;1
+font-1 = Material Icons:size=13;2
+font-2 = M+ 1mn:style=bold:pixelsize=13;1
 
-modules-left = bspwm xwindow
-modules-center = mpd
+modules-left = bspwm mpd
+modules-center = xwindow 
 modules-right = volume memory cpu date battery powermenu
 
-tray-position = left
-tray-padding = 2
+tray-position = right
+tray-padding = 0
 
 wm-restack = bspwm
 
@@ -98,7 +98,7 @@ label-unmounted-foreground = ${colors.foreground-alt}
 
 [module/bspwm]
 type = internal/bspwm
-module-margin-left = 4
+module-margin-left = 8
 module-margin-right = 4
 label-focused = %name%
 label-focused-font = 4 
